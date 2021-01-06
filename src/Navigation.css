@@ -1,0 +1,21 @@
+.unorder {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+}
+
+button {
+    border-radius: 10px;
+    border: none;
+}
+
+.nav {
+    padding: 0;
+    margin-left: 120px;
+    display: inline;
+}
+
+.nav2 {
+    float: right;
+    margin-right: 100px;
+}

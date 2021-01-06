@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Navigation from './Navigation';
+import Body from './Body';
+import Linkform from './Linkform';
+import Information from './Information';
+import Tab from './Tab';
+import Footer from './Footer';
+import 'tachyons';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className = "App">
+      <Navigation/>
+      <Body/>
+      <Linkform/>
+      <Information/>
+      <Tab/>
+      <Footer/>
+      {/* Features
+
+      Link Shortening
+      Branded Links
+      Analytics
+
+      Resources
+
+      Blog
+      Developers
+      Support
+
+      Company
+
+      About
+      Our Team
+      Careers
+      Contact */}
     </div>
-  );
-}
+  )}
 
 export default App;

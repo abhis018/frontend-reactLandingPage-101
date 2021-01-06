@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+}
+
+.B1 {
+    margin-left: 120px;
+    width: 155px;
+    height: 30px;
+    border-radius: 25px;
+}
+img {
+    margin-right: 50px;
+}
