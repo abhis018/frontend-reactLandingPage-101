@@ -1,0 +1,10 @@
+.input {
+    border: 1px solid;
+}
+
+.form {
+    background-color: rgb(49, 51, 54);
+    background-image: url(file:///C:/Users/abhis/OneDrive/Desktop/insure/api-calling/src/bg-boost-desktop.svg);
+    position: relative;
+    bottom: 72rem;
+}

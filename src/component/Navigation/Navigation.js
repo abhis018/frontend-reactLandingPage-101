@@ -3,7 +3,7 @@ import './Navigation.css';
 
 const Navigation = () => {
     return (
-        <ul className="unorder">
+        <ul className="unorder mt3">
             <li className="nav">Features</li>
             <li className="nav">Pricing</li>
             <li className="nav">Resources</li>

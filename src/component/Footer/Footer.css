@@ -6,11 +6,12 @@ ul {
 
 .list {
     display:flex;
-    margin-left: 400px;
+    background-color: rgb(46, 35, 35);
 }
 
 .column1 {
     padding-left: 10px;
+    margin-left: 400px;
 }
 .column2 {
     padding-left: 100px;

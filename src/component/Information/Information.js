@@ -3,13 +3,13 @@ import './Information.css';
 
 const Information = () => {
     return (
-        <div>
-            <h1 className="center">Advanced Statistics</h1>
+        <div className ="full">
+            <h1 className="center pt6 mt0">Advanced Statistics</h1>
             <p className="center">Track how your links are performing across the web with our 
                 advanced statistics dashboard.
             </p>
-            <div className="flex mh6 mv5">
-                <div className="boxes mr4">
+            <div className="flex mh6">
+                <div className="boxes mr4 mv4">
                     <h4>Brand Recognition</h4>
 
                     <p>Boost your brand recognition with each click. Generic links don’t 
